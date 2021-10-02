@@ -7,7 +7,7 @@ const consign = require("consign");
 
 consign()
   //  .include("/config/passport.js")
-  //  .then("/config/middlewares.js")
+  .then("/src/config/middlewares.js")
   //  .then("/config/swagger.js")
   .then("/src/api/controllers")
   .then("/src/routes")
